@@ -1,0 +1,65 @@
+.work {
+  margin-bottom: 212px;
+  &__top {
+    margin-bottom: 56px;
+  }
+  &__top-title {
+    padding-bottom: 32px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+  &__top-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6b6b6c;
+    max-width: 637px;
+  }
+  &__botom {
+    display: flex;
+    gap: 10px;
+  }
+  &__botom-one,
+  &__botom-one-1,
+  &__botom-one-2 {
+    border-right: 2px solid rgb(237, 237, 237);
+    border-top: 2px solid rgb(237, 237, 237);
+    border-left: 2px solid rgb(237, 237, 237);
+    border-bottom: 2px solid rgb(237, 237, 237);
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px rgb(229, 229, 229);
+  }
+  &__botom-title {
+    padding: 24px 32px;
+  }
+  &__botom-text {
+    padding: 14px 32px;
+    width: 291px;
+  }
+  &__botom-title-2 {
+    padding: 0px 32px;
+    margin-bottom: 32px;
+  }
+  &__botom-title-1 {
+    padding: 4px 32px;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .work__botom {
+    flex-direction: column;
+  }
+  .work__botom-img {
+    width: 100%;
+  }
+  .work__top-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  .work__botom-one-2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+}

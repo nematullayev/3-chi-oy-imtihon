@@ -1,0 +1,56 @@
+.kontakt {
+  margin-bottom: 46px;
+  &__title {
+    color: #363738;
+    margin-bottom: 94px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+  &__botom {
+    display: flex;
+    gap: 198px;
+  }
+  &__botom-left {
+    display: flex;
+    gap: 49px;
+    flex-direction: column;
+  }
+  &__botom-left-one {
+    display: flex;
+    gap: 30px;
+  }
+  &__botom-left-one-tel {
+    color: #363738;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  &__botom-right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: rgb(249, 249, 251);
+    padding: 40px 92px 0 48px;
+  }
+  &__botom-right-one {
+    display: flex;
+    gap: 56px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #36373830;
+  }
+  &__botom-left-one-tel {
+    width: 165px;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .kontakt__botom {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .kontakt__botom-right-one {
+    flex-direction: column;
+  }
+}

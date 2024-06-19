@@ -1,0 +1,123 @@
+.klient {
+  margin-bottom: 120px;
+  background-color: #0b7572;
+  display: flex;
+  gap: 30px;
+  &__title {
+    color: white;
+    margin-top: 100px;
+  }
+  &__right-top {
+    display: flex;
+    align-items: center;
+    gap: 330px;
+    justify-content: space-between;
+    border-bottom: 1px solid #d7d7dd;
+  }
+  &__right {
+    background-color: #fff;
+    padding-top: 28px;
+    padding-left: 41px;
+    margin: 85px;
+    border-radius: 15px;
+  }
+  &__right-top-text {
+    width: 274px;
+    padding-bottom: 32px;
+  }
+  &__list {
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 32px;
+    margin-top: 32px;
+    margin-right: 20px;
+    gap: 72px;
+    background-color: #0b7572;
+  }
+  &__item {
+    color: #fff;
+    border-right: 1px solid rgb(9, 94, 91);
+    padding-right: 55px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  &__finish {
+    background-color: #f9f9fb;
+    padding-top: 24px;
+    display: flex;
+    border-bottom: 1px solid #d7d7dd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+  }
+  &__finish-one {
+    display: flex;
+  }
+  &__finish-one-text {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 112px;
+  }
+  &__finish-2 {
+    padding-left: 50px;
+    padding-right: 30px;
+    border-left: 1px solid #d7d7dd;
+    border-right: 1px solid #d7d7dd;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d7d7dd;
+  }
+  &__finish-one-img {
+    padding-right: 38px;
+    padding-bottom: 130px;
+    padding-left: 26px;
+    border-bottom: 1px solid #ababab;
+  }
+}
+.li {
+  display: none;
+}
+@media only screen and (max-width: 1180px) {
+  .klient__right-top-text {
+    display: none;
+  }
+  .klient {
+    flex-direction: column;
+  }
+  .klient__right {
+    max-width: 652px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .klient__list {
+    flex-direction: column;
+  }
+  .kl {
+    display: none;
+  }
+  .li {
+    display: block;
+  }
+  .la {
+    display: none;
+  }
+  .klient__finish-one {
+    flex-direction: column;
+  }
+  .-thre {
+    display: none;
+  }
+  .klient__finish-2 {
+    border-left: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-right: none;
+  }
+  .klient__finish-one-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+}

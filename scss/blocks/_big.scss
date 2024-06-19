@@ -1,0 +1,32 @@
+.big {
+  margin-bottom: 50px;
+  &__img-img {
+    display: none;
+    width: 100%;
+  }
+  &__img {
+    width: 100%;
+    position: relative;
+  }
+  &__all-right-text {
+    color: white;
+  }
+  &__all-right {
+    transform: translateX(750px) translateY(-500px);
+  }
+  &__all-right-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .big__all-right {
+    display: none;
+  }
+  .big__img-img {
+    display: block;
+  }
+  .big__img {
+    display: none;
+  }
+}

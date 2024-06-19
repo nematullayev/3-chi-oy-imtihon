@@ -1,0 +1,35 @@
+.feel {
+  margin-bottom: 130px;
+  &__title {
+    margin-bottom: 90px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+  &__botom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  &__botom-one {
+    text-align: center;
+    padding-right: 63px;
+    border-right: 1px solid rgb(215, 215, 221);
+    margin-top: 30px;
+    justify-content: center;
+  }
+  &__botom-one-1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  &__botom-one-img {
+    padding-bottom: 22px;
+  }
+  &__botom-one-title {
+    padding-bottom: 12px;
+  }
+  &__botom-one-text {
+    padding-bottom: 12px;
+  }
+}
