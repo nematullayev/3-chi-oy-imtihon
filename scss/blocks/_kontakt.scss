@@ -42,11 +42,17 @@
   &__botom-left-one-tel {
     width: 165px;
   }
+  &__botom-right-one-2 {
+    display: flex;
+    gap: 56px;
+    padding-bottom: 16px;
+  }
 }
 @media only screen and (max-width: 1180px) {
   .kontakt__botom {
     flex-direction: column;
     justify-content: center;
+    gap: 50px;
   }
   .kontakt__botom-right-one-title {
     border-bottom: none;

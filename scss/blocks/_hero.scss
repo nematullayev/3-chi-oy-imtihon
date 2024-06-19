@@ -50,12 +50,12 @@
     padding-bottom: 32px;
     padding-right: 32px;
     align-items: center;
-    border-top: 1px solid rgb(237, 237, 237);
-    border-left: 1px solid rgb(237, 237, 237);
-    border-bottom: 1px solid rgb(237, 237, 237);
-    border-right: 1px solid rgb(237, 237, 237);
     border-radius: 25px;
     box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
+  }
+  .hero__one-title,
+  .hero__one-text {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -64,5 +64,9 @@
   }
   .hero__one-text {
     max-width: 218px;
+  }
+  .hero__one-title,
+  .hero__one-text {
+    width: 100%;
   }
 }

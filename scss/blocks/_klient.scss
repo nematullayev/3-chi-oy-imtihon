@@ -47,11 +47,11 @@
   &__finish {
     background-color: #f9f9fb;
     padding-top: 24px;
+    margin-right: 20px;
     display: flex;
     border-bottom: 1px solid #d7d7dd;
     display: flex;
     flex-direction: column;
-    border-radius: 25px;
   }
   &__finish-one {
     display: flex;
@@ -65,7 +65,6 @@
     padding-left: 50px;
     padding-right: 30px;
     border-left: 1px solid #d7d7dd;
-    border-right: 1px solid #d7d7dd;
     padding-bottom: 5px;
     border-bottom: 1px solid #d7d7dd;
   }

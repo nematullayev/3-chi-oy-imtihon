@@ -158,12 +158,12 @@ h4 {
     padding-bottom: 32px;
     padding-right: 32px;
     align-items: center;
-    border-top: 1px solid rgb(237, 237, 237);
-    border-left: 1px solid rgb(237, 237, 237);
-    border-bottom: 1px solid rgb(237, 237, 237);
-    border-right: 1px solid rgb(237, 237, 237);
     border-radius: 25px;
     box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
+  }
+  .hero__one-title,
+  .hero__one-text {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -173,6 +173,10 @@ h4 {
   .hero__one-text {
     max-width: 218px;
   }
+  .hero__one-title,
+  .hero__one-text {
+    width: 100%;
+  }
 }
 .why {
   position: relative;
@@ -180,6 +184,7 @@ h4 {
 }
 .why__left {
   background-color: #0b7572;
+  height: 453px;
 }
 .why__right-img {
   -webkit-clip-path: polygon(39% 0, 100% 0, 100% 100%, 60% 100%);
@@ -273,10 +278,6 @@ h4 {
   gap: 10px;
 }
 .work__botom-one, .work__botom-one-1, .work__botom-one-2 {
-  border-right: 2px solid rgb(237, 237, 237);
-  border-top: 2px solid rgb(237, 237, 237);
-  border-left: 2px solid rgb(237, 237, 237);
-  border-bottom: 2px solid rgb(237, 237, 237);
   border-radius: 25px;
   box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
 }
@@ -360,11 +361,11 @@ h4 {
 .klient__finish {
   background-color: #f9f9fb;
   padding-top: 24px;
+  margin-right: 20px;
   display: flex;
   border-bottom: 1px solid #d7d7dd;
   display: flex;
   flex-direction: column;
-  border-radius: 25px;
 }
 .klient__finish-one {
   display: flex;
@@ -378,7 +379,6 @@ h4 {
   padding-left: 50px;
   padding-right: 30px;
   border-left: 1px solid #d7d7dd;
-  border-right: 1px solid #d7d7dd;
   padding-bottom: 5px;
   border-bottom: 1px solid #d7d7dd;
 }
@@ -452,7 +452,6 @@ h4 {
   margin-bottom: 24px;
   display: flex;
   gap: 56px;
-  border: 2px solid rgb(233, 233, 233);
   border-radius: 25px;
   box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
 }
@@ -529,9 +528,6 @@ h4 {
   padding: 32px 0px;
   display: flex;
   gap: 40px;
-  border-top: 1px solid rgb(215, 215, 221);
-  border-right: 1px solid rgb(215, 215, 221);
-  border-bottom: 1px solid rgb(215, 215, 221);
   border-left: 51px solid #0b7572;
   border-radius: 25px;
   box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
@@ -604,11 +600,17 @@ h4 {
 .kontakt__botom-left-one-tel {
   width: 165px;
 }
+.kontakt__botom-right-one-2 {
+  display: flex;
+  gap: 56px;
+  padding-bottom: 16px;
+}
 
 @media only screen and (max-width: 1180px) {
   .kontakt__botom {
     flex-direction: column;
     justify-content: center;
+    gap: 50px;
   }
   .kontakt__botom-right-one-title {
     border-bottom: none;
