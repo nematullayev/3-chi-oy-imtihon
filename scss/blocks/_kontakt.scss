@@ -48,6 +48,9 @@
     flex-direction: column;
     justify-content: center;
   }
+  .kontakt__botom-right-one-title {
+    border-bottom: none;
+  }
 }
 @media only screen and (max-width: 576px) {
   .kontakt__botom-right-one {

@@ -50,6 +50,9 @@ h4 {
   color: #6b6b6c;
   border: 2px solid #fff;
 }
+.btn body {
+  overflow-x: hidden;
+}
 
 .header {
   margin-top: 109px;
@@ -112,7 +115,7 @@ h4 {
   border-right: 1px solid rgb(237, 237, 237);
   border-radius: 25px;
   margin-bottom: 67px;
-  box-shadow: 3px 3px 3px 3px rgb(229, 229, 229);
+  box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
 }
 .hero__one {
   padding-right: 105px;
@@ -160,7 +163,7 @@ h4 {
     border-bottom: 1px solid rgb(237, 237, 237);
     border-right: 1px solid rgb(237, 237, 237);
     border-radius: 25px;
-    box-shadow: 3px 3px 3px 3px rgb(229, 229, 229);
+    box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
   }
 }
 @media only screen and (max-width: 576px) {
@@ -275,7 +278,7 @@ h4 {
   border-left: 2px solid rgb(237, 237, 237);
   border-bottom: 2px solid rgb(237, 237, 237);
   border-radius: 25px;
-  box-shadow: 3px 3px 3px 3px rgb(229, 229, 229);
+  box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
 }
 .work__botom-title {
   padding: 24px 32px;
@@ -404,6 +407,7 @@ h4 {
   }
   .klient__list {
     flex-direction: column;
+    margin-bottom: 50px;
   }
   .kl {
     display: none;
@@ -450,7 +454,7 @@ h4 {
   gap: 56px;
   border: 2px solid rgb(233, 233, 233);
   border-radius: 25px;
-  box-shadow: 3px 3px 3px 3px rgb(229, 229, 229);
+  box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
 }
 .postavka__botom-title {
   padding-bottom: 20px;
@@ -530,7 +534,7 @@ h4 {
   border-bottom: 1px solid rgb(215, 215, 221);
   border-left: 51px solid #0b7572;
   border-radius: 25px;
-  box-shadow: 3px 3px 3px 3px rgb(229, 229, 229);
+  box-shadow: 0px 4px 15px 0px rgb(229, 229, 229);
 }
 .company__svj {
   padding-top: 31px;
@@ -606,6 +610,9 @@ h4 {
     flex-direction: column;
     justify-content: center;
   }
+  .kontakt__botom-right-one-title {
+    border-bottom: none;
+  }
 }
 @media only screen and (max-width: 576px) {
   .kontakt__botom-right-one {
@@ -617,7 +624,6 @@ h4 {
 }
 .big__img-img {
   display: none;
-  width: 100%;
 }
 .big__img {
   width: 100%;
@@ -625,9 +631,6 @@ h4 {
 }
 .big__all-right-text {
   color: white;
-}
-.big__all-right {
-  transform: translateX(750px) translateY(-500px);
 }
 .big__all-right-text {
   padding-top: 10px;
@@ -640,6 +643,7 @@ h4 {
   }
   .big__img-img {
     display: block;
+    width: 100%;
   }
   .big__img {
     display: none;
